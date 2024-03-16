@@ -1,5 +1,7 @@
 # Pokémon full-stack challenge (all steps done)
 
+![poke.png](poke.png)
+
 ### Step 1
 - In `/pages/api/api.js` create an endpoint that pulls down the first 151 Pokémon from https://pokeapi.co/ and serves it to the user.
 
