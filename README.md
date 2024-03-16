@@ -1,30 +1,4 @@
-# Switchshop Pokémon full-stack challenge
-
-Welcome to the Switchshop Pokémon full-stack challenge!
-
-The aim of this code challenge is to test your full-stack capabilities in a fun, interesting way.
-
-There's no time-limit on this task, and we won't be looking at git commits with time in mind. Everyone's busy, and we appreciate you taking the time to complete our task and fitting it around your other commitments.
-
-The app is bootstrapped with the NextJS starter pack. You are free to use whichever packages or plugins you wish for things like styling, data-fetching, state-management etc.
-
-## Overview
-
-We'd like you to build an application that displays the first 151 Pokémon. Ideally, you'd be able to select a Pokémon and view its' image, description and stats. The layout, styling and user-features are up to you. This challenge is designed for you to show off and impress us with your execution, so have fun with it! You're free to incorporate as many flourishes (animation, etc), features (search, etc), and quality of life elements (testing, responsiveness), or as little as you wish.
-
-### Notes
-- You will need to use git for this challenge.
-- Please commit only once for each step in the instructions.
-- Do not bundle multiple steps in each commit.
-- Please name each commit with the name of the appropriate stage, ie "Step 1".
-- Feel free to use either Javascript or Typescript for your solution.
-
-## Instructions
-
-### Preparing
-Please do not create a public fork of this repo. This is to stop other applicants from seeing your solution. See how to share the repo with us at the end of the steps.
-
-Clone this repo down to your local machine and run `npm install` to install the project dependencies. To start the dev server, run `npm run dev` and it will fire up at `localhost:3000`
+# Pokémon full-stack challenge (all steps done)
 
 ### Step 1
 - In `/pages/api/api.js` create an endpoint that pulls down the first 151 Pokémon from https://pokeapi.co/ and serves it to the user.
@@ -46,9 +20,3 @@ Incorporate a search function to the application so someone can find a Pokémon 
 Extend the search functionality with filters/sorting:
 
 - Users should be able to sort Pokémon by stats such as `attack`, `defense` etc.
-
-## Submitting your work
-
-To submit the challenge, either upload it to your Github in a private repo and provide us access (preferred) or zip up the project (minus the node modules) and return it back to us via email.
-
-If you're following the GitHub route please give read access to: louisotto@switchshop.co.uk and matthewslater@switchshop.co.uk
